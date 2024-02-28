@@ -1,8 +1,8 @@
-# Speech Emotion Recognition using keras, tensorflow and sklearn
+# Speech Emotion Recognition using Keras, Tensorflow and sklearn
 
-This repository contains the code for the speech emotion recognition model built using keras, tensorflow and sklearn libraries. The data used for trainibg purposes is the RAVDESS Audio Dataset.
+This repository contains the code for the speech emotion recognition model built using Keras, TensorFlow, and sklearn libraries. The data used for training purposes is the RAVDESS Audio Dataset.
 
-Tested on python 3.8.10
+Tested on Python 3.8.10
 
 ### Installation
 To install the dependencies run:
@@ -11,9 +11,9 @@ pip install -r requirements.txt
 ```
 
 ### Ryerson Audio-Visual Database of Emotional Speech and Song 
-The  RAVDESS audio dataset consists of two lexically-matched statements are vocalized in a neutral North American accent by 24 professional actors (12 female, 12 male) in the database. Calm, happy, sad, angry, afraid, surprise, and disgust expressions can be found in speech, whereas calm, happy, sad, angry, and fearful emotions can be found in song. Each expression has two emotional intensity levels (normal and strong), as well as a neutral expression. We will only be making use of audio files in this project.
+The  RAVDESS audio dataset consists of two lexically matched statements vocalized in a neutral North American accent by 24 professional actors (12 female, 12 male) in the database. Calm, happy, sad, angry, afraid, surprised, and disgusted expressions can be found in speech, whereas calm, happy, sad, angry, and fearful emotions can be found in song. Each expression has two emotional intensity levels (normal and strong), as well as a neutral expression. We will only be making use of audio files in this project.
 
-The audio files of RAVDESS is selected and placed inside the `data` folder. 
+The audio files of RAVDESS are selected and placed inside the `data` folder. 
 
 
 ### Extracting features from audio files
